@@ -14,12 +14,12 @@
     </nav>
 </template>
 <script>
-//ES6导出模块的语法
+//ES6导出模块的语法，导出的是一个组件
     export default{
         data() {
-            return{
-
-            };
+          return{
+              
+          };
         }
     }
 </script>
