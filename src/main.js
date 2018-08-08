@@ -1,4 +1,4 @@
-//导入模块， 模块化语法
+//入口文件模块，引入各种。//导入模块， 模块化语法
 
 //ES6中模块化语法
 import Vue from 'vue';
@@ -14,10 +14,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/index.css';
 
 //导入路由模块
-import router from './routes/router.js';
+import router from './routes/router';
 
 
 new Vue({
+  router,
   el: '#app',
   render: h => h(App)
-})
+});
